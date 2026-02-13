@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>777 Towing Services | 24/7 Emergency Towing Stockton</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#0a0f1c;
+  color:white;
+  overflow-x:hidden;
+}
+
+/* ===== Animated Gold Glow Background ===== */
+body::before{
+  content:"";
+  position:fixed;
+  width:200%;
+  height:200%;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(255,140,0,.4), transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(255,215,0,.4), transparent 40%);
+  animation:moveBg 20s infinite alternate ease-in-out;
+  z-index:-1;
+}
+@keyframes moveBg{
+  0%{transform:translate(-5%,-5%)}
+  100%{transform:translate(-25%,-25%)}
+}
+
+/* ===== NAV ===== */
+nav{
+  position:fixed;
+  width:100%;
+  padding:20px 40px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:rgba(0,0,0,.6);
+  backdrop-filter:blur(12px);
+  z-index:1000;
+}
+
+.logo{
+  font-family:'Orbitron',sans-serif;
+  font-size:32px;
+  letter-spacing:5px;
+  background:linear-gradient(45deg,#ffd700,#ff9900);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+/* ===== HERO ===== */
+.hero{
+  height:100vh;
+  background:url('https://cdn.pixabay.com/photo/2016/11/29/09/32/truck-1868767_1280.jpg') center/cover no-repeat;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  position:relative;
+}
+
+.hero::after{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,.75);
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+}
+
+.hero h1{
+  font-size:60px;
+  margin-bottom:20px;
+}
+
+.hero p{
+  font-size:20px;
+  margin-bottom:30px;
+}
+
+.call-btn{
+  background:linear-gradient(45deg,#ffd700,#ff9900);
+  color:black;
+  padding:18px 50px;
+  border-radius:50px;
+  font-weight:700;
+  text-decoration:none;
+  font-size:20px;
+  transition:.3s;
+}
+
+.call-btn:hover{
+  transform:scale(1.1);
+  box-shadow:0 20px 60px rgba(255,215,0,.6);
+}
+
+/* ===== SECTION ===== */
+.section{
+  padding:120px 20px;
+  text-align:center;
+}
+
+.section h2{
+  font-size:42px;
+  margin-bottom:60px;
+}
+
+/* ===== SERVICES ===== */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
+  max-width:1200px;
+  margin:auto;
+}
+
+.card{
+  background:rgba(255,255,255,.05);
+  border-radius:20px;
+  overflow:hidden;
+  backdrop-filter:blur(12px);
+  transition:.4s;
+}
+
+.card img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+}
+
+.card h3{
+  padding:20px;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  background:rgba(255,255,255,.1);
+}
+
+/* ===== ROAD DIVIDER ===== */
+.road{
+  height:50vh;
+  background:url('https://cdn.pixabay.com/photo/2016/11/23/14/45/road-1853301_1280.jpg') center/cover fixed;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.road h2{
+  background:rgba(0,0,0,.7);
+  padding:20px 40px;
+  border-radius:20px;
+}
+
+/* ===== WHY ===== */
+.stats{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  flex-wrap:wrap;
+}
+
+.stat-box{
+  background:rgba(255,255,255,.05);
+  padding:30px 60px;
+  border-radius:15px;
+  font-size:24px;
+  color:#ffd700;
+}
+
+/* ===== FLOATING CALL BUTTON ===== */
+.floating-call{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#ffd700;
+  color:black;
+  padding:15px 25px;
+  border-radius:50px;
+  font-weight:700;
+  text-decoration:none;
+  box-shadow:0 10px 30px rgba(255,215,0,.5);
+  transition:.3s;
+}
+
+.floating-call:hover{
+  transform:scale(1.1);
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">777 TOWING</div>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>24 Hour Emergency Towing</h1>
+    <p>Stockton • Lodi • Modesto • Manteca • Lathrop • Tracy • Livermore</p>
+    <a class="call-btn" href="tel:+19254957685">CALL NOW (925) 495-7685</a>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://cdn.pixabay.com/photo/2017/01/06/19/15/tow-truck-1953677_1280.jpg">
+      <h3>Light & Medium Duty Towing</h3>
+    </div>
+    <div class="card">
+      <img src="https://cdn.pixabay.com/photo/2016/11/29/05/08/auto-1868726_1280.jpg">
+      <h3>Jump Starts</h3>
+    </div>
+    <div class="card">
+      <img src="https://cdn.pixabay.com/photo/2017/01/06/19/15/truck-1953675_1280.jpg">
+      <h3>Fuel Delivery</h3>
+    </div>
+    <div class="card">
+      <img src="https://cdn.pixabay.com/photo/2016/11/29/09/32/car-1868765_1280.jpg">
+      <h3>Lockout Assistance</h3>
+    </div>
+    <div class="card">
+      <img src="https://cdn.pixabay.com/photo/2016/11/23/14/45/tire-1853300_1280.jpg">
+      <h3>Tire Changes</h3>
+    </div>
+    <div class="card">
+      <img src="https://cdn.pixabay.com/photo/2016/11/29/05/08/mechanic-1868725_1280.jpg">
+      <h3>Minor Repairs</h3>
+    </div>
+  </div>
+</section>
+
+<section class="road">
+  <h2>Rapid Response • Professional Service</h2>
+</section>
+
+<section class="section">
+  <h2>Why Choose 777?</h2>
+  <div class="stats">
+    <div class="stat-box">24/7 Availability</div>
+    <div class="stat-box">30 Mile Radius</div>
+    <div class="stat-box">Fast Response</div>
+  </div>
+</section>
+
+<a class="floating-call" href="tel:+19254957685">📞 Call 24/7</a>
+
+</body>
+</html>
